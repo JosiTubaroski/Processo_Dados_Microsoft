@@ -58,6 +58,28 @@ Criar um pipeline robusto de processamento de Big Data utilizando ferramentas do
    - Exemplo de consulta:
 
    <img src="https://github.com/JosiTubaroski/Processo_Dados_Microsoft/blob/main/img/03_Azure_Synapse_Analytics.png">
+
+5. Modelagem Preditiva com Azure Machine Learning
+   - O Azure Machine Learning é usado para treinar modelos preditivos, como prever:
+     - Quais produtos terão maior demanda em cada região.
+     - Quando será necessário reabaster determinados itens.
+   - O modelo é implantado como um endpoint para integração com o pipeline.
+
+6. Visualização com Power BI
+   - O Power BI é conectado ao Synapse para criar dashboard interativos e relatórios em tempo real:
+     - Visualização de vendas por região, loja e produto.
+     - Detecção de tendências sazonais e comportamento de consumo.
+     - Alertas para itens com vendas abaixo do esperado.
+    
+## Benefícios:
+
+   1. Escabilidade e Resiliência: Azure Event Hubs e Databricks processam grandes volumes de dados com alta confiabilidade.
+   2. Análise Integrada: Azure Synapse combina dados em tempo real e históricos para fornecer insights abrangentes.
+   3. Previsões Avançadas: Azure Machine Learning melhora a precisão das decisões operacionais.
+   4. Relatórios Dinâmicos: Power BI transforma os dados em insights acionáveis para equipes de negócios.
+
+Esse pipeline demonstra como o Azure pode ser utilizado para processar e analisar Big Data, otimizando processos e gerando valor estratégico para a empresa.
+
      
    
      
