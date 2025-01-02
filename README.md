@@ -51,5 +51,13 @@ Criar um pipeline robusto de processamento de Big Data utilizando ferramentas do
      - Agregação e cálculo de métricas, como receita total por região.
 
     <img src="https://github.com/JosiTubaroski/Processo_Dados_Microsoft/blob/main/img/02_PySpark_Databricks.png">
+
+4. Análise com Azure Synapse
+
+   - Os dados processados são armazenados no Azure Synapse Analytics, onde podem ser consultados usando SQL.
+   - Exemplo de consulta:
+
+   <img src="https://github.com/JosiTubaroski/Processo_Dados_Microsoft/blob/main/img/03_Azure_Synapse_Analytics.png">
+     
    
      
