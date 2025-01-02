@@ -36,4 +36,20 @@ Criar um pipeline robusto de processamento de Big Data utilizando ferramentas do
    - Exemplo de mensagem JSON enviada para o Event Hub:
   
       <img src="https://github.com/JosiTubaroski/Processo_Dados_Microsoft/blob/main/img/01_Azure_JSON.png">
+
+2. Orquestração com Azure Data Factory
+
+   - Azure Data Factory (ADF) é configurado para orquestrar a movimentação e transformação dos dados:
+     - Captura dados históricos de vendas armazenados em bancos de dados SQL e sistemas de armazenamento de dados (como Azure Blob Storage).
+     - Integra os dados com os streams em tempo real do Event Hub
+    
+3. Processamento em Escala com Azure Databricks
+
+   - Um cluster do Azure Databricks processa os dados em escala usando Apache Spark:
+     - Limpeza e normalização de dados.
+     - Enriquecimento com dados externos, como informações de mercado e clima.
+     - Agregação e cálculo de métricas, como receita total por região.
+
+    <img src="https://github.com/JosiTubaroski/Processo_Dados_Microsoft/blob/main/img/02_PySpark_Databricks.png">
+   
      
