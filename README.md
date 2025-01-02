@@ -29,3 +29,11 @@ Criar um pipeline robusto de processamento de Big Data utilizando ferramentas do
 6. Power BI: Visualização de dados e relatórios interativos.
 
 ## Passo a Passo:
+
+1. Ingestão de Dados com Azure Event Hubs
+
+   - Os dados de vendas em tempo real de sistemas POS, APIs externas IoT são enviados para o Azure Event Hubs, que atua como um barramento de mensagens de alta taxa de transferência.
+   - Exemplo de mensagem JSON enviada para o Event Hub:
+  
+      <img src="https://github.com/JosiTubaroski/Processo_Dados_Microsoft/blob/main/img/01_Azure_JSON.png">
+     
